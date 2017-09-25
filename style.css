@@ -1,0 +1,288 @@
+*{
+    margin: 0 auto;
+    padding: 0;;
+}
+/*Menu*/
+nav.main-top{
+    width: 100%;
+    height: 665px;
+    background-color: #CCC;
+    background-image: url('../img/pexels-photo-39811.jpeg');
+    background-attachment: fixed;
+}
+.menu-top{
+    width: 100%;
+    height: 50px;
+    background-color: #0F0F0F;
+    position: fixed;
+}
+.logo{
+    float: left;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    color: #FFF;
+    font-family: "Coneria Script Demo";
+    font-size: 18px;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+.menu-rigt{
+    float: right;
+    width: 400px;
+    height: 50px;
+}
+li{
+    list-style: none;
+    float: left;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+a{
+    text-decoration: none;
+    font-family: "Code";
+    color: #CCC;
+    font-weight: bold;
+}
+a:hover{
+    color: #1D98EA;
+    transition: 1s;
+}
+.hell-text{
+    width: 1024px;
+    height: 400px;
+    display: inline-block;
+    margin-top: 150px;
+    margin-left: 160px;
+}
+i.name{
+    font-family: "Code";
+    font-size: 45px;
+    color: #FFF;
+    text-align: center;
+    margin-left: 340px;
+}
+.sub-about{
+    font-family: "Code";
+    font-size: 45px;
+    color: #FFF;
+    text-align: center;
+    font-weight: bold;
+}
+button.btn-inf{
+    width: 250px;
+    height: 50px;
+    border: 0;
+    text-align: center;
+    font-family: "Code";
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 400px;
+    background-color: #114B5F;
+    color: #FFF;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+button.btn-inf:hover{
+    transition: 1s;
+    background-color: #fff;
+    color: #0F0F0F;
+}
+/*End Menu*/
+
+
+/*Conteudo*/
+header.container-main{
+    width: 100%;
+    height: 665px;
+    background-color: #E2E2E2;
+    background-image: url('../img/pexels-photo-289367.jpeg');
+    background-attachment: fixed;
+}
+.list-web{
+    width: 800px;
+    height: 200px;
+    margin-top: 160px;
+    margin-left: 290px;
+    display: inline-block;
+
+}
+.lis1{
+    width: 180px;
+    height: 180px;
+    background-color: #e2e2e2;
+    float: left;
+    border-radius: 20em;
+    margin-left: 15px;
+    cursor: pointer;
+    
+}
+.lis1:hover{
+    background-color: #CA3838;
+    transition: 1s;
+    color: #FFF;
+}
+.lis2{
+    width: 180px;
+    height: 180px;
+    background-color: #e2e2e2;
+    float: left;
+    border-radius: 20em;
+     margin-left: 15px;
+    cursor: pointer;
+
+}
+.lis2:hover{
+    background-color: #114B5F;
+    transition: 1s;
+    color: #FFF;
+}   
+.lis3{
+    width: 180px;
+    height: 180px;
+    background-color: #e2e2e2;
+    float: left;
+    margin-left: 15px;
+    border-radius: 20em;
+    cursor: pointer;
+   
+}
+.lis3:hover{
+    background-color: #CA3838;
+    transition: 1s;
+    color: #FFF;
+}
+.lis4{
+    width: 180px;
+    height: 180px;
+    background-color: #e2e2e2;
+    float: left;
+    border-radius: 20em;
+     margin-left: 15px;
+    cursor: pointer;
+
+}
+.lis4:hover{
+    background-color: #114B5F;
+    transition: 1s;
+    color: #FFF;
+}   
+h3{
+    text-align: center;
+    margin-top: 80px;
+    font-family: "Code";
+    font-weight: bold;
+    
+}
+.text-about{
+    width: 960px;
+    height: 100px;
+    font-family: "Calibri";
+    font-size: 20px;
+    color: #FFF;
+    text-align: center;
+    margin-top: 80px;
+}
+/*End conteudo*/
+
+/*Conteudo 2*/
+article.content-main{
+    width: 100%;
+    height: 665px;
+    background-image: url('../img/pexels-photo-213803.jpeg');
+    background-attachment: fixed;
+}
+.front-end{
+    width: 400px;
+    height: 350px;
+    background-color: #CCC;
+    margin-top: 100px;
+    display: inline-block;
+    margin-left: 230px;
+    cursor: pointer;
+    opacity: 0.65;
+     border-radius: 3px;
+}
+.front-end:hover{
+    background-color: #114B5F;
+    transition: 1s;
+    color: #FFF;
+}
+.back-end{
+    width: 400px;
+    height: 350px;
+    background-color: #CCC;
+    margin-top: 100px;
+    display: inline-block;
+    margin-left: 100px;
+    cursor: pointer;
+    opacity: 0.65;
+     border-radius: 3px;
+}
+.back-end:hover{
+    background-color: #CA3838;
+    transition: 1s;
+    color: #FFF;
+
+}
+h1.name-f{
+    font-size: 45px;
+    text-align: center;
+    font-family: "Code";
+    margin-top: 150px;
+    border-radius: 3px;
+}
+h1.name-b{
+    font-size: 45px;
+    text-align: center;
+    font-family: "Code";
+     margin-top: 150px;
+     
+}
+.copy{
+    width: 960px;
+    height: 30px;
+    margin-top: 100px;
+    text-align: center;
+    font-family: "Calibri";
+    color: #FFF;
+    font-size: 18px;
+}
+/*end conteudo 2*/
+
+/*Scrolling edit*/
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: #e1e1e1;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ffffff;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #000000;
+}
+::-webkit-scrollbar-track {
+  background: #666666;
+  border: 0px none #ffffff;
+  border-radius: 0px;
+}
+::-webkit-scrollbar-track:hover {
+  background: #666666;
+}
+::-webkit-scrollbar-track:active {
+  background: #333333;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+/*End Scrolling edit*/
